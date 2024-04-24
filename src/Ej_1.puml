@@ -1,0 +1,10 @@
+@startuml
+Class Biblioteca{
+}
+Class Libro{
+}
+Class Autor{
+}
+Biblioteca "1" *-- "*" Libro:tiene
+Libro "1"  o-- "*"  Autor:escrito
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+class Piloto {
+  Name
+}
+Piloto "0.*" - "1.*" Compañia
+(Piloto, Compañia) .. Contrato
+
+class Contrato {
+  drop()
+  cancel()
+}
+@enduml
