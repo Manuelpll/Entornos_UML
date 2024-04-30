@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+:Cliente: as C
+Actor Administrativo as A
+rectangle "Sistema de Venta"{
+(BuscarProductos) as BP
+usecase "CompraProductos" as CP
+usecase "InsertarProducto" as IP
+}
+C -- BP
+C -- CP
+A -- IP
+@enduml

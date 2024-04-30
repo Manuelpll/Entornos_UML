@@ -8,5 +8,5 @@ Orquesta "1" *--> "1" Violin
 Orquesta"1" *--> "0..*" Tambor
 Orquesta "1" *--> "1..5" Trombon
 Orquesta "1" *--> "1..4" Clarinete
-Trombon .. clarinete: {or}
+Trombon .. Clarinete: {or}
 @enduml
